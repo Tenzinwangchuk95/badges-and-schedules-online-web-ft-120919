@@ -24,7 +24,8 @@ def printer(attendees)
   count=1 
   attendees.each do |name|
     puts "Hello, my name is #{name}."
-    puts 
+    puts "Hello, #{name}! You'll be assigned to room #{count}!"
+    count += 1
   end
     
 end
