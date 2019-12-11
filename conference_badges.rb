@@ -17,5 +17,5 @@ def assign_rooms(attendees)
       assignments << "Hello, #{name}! You'll be assigned to room #{count}!."
       count += 1
     end
-    return badges
+    return assignments
 end
